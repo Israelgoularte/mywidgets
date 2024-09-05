@@ -4,13 +4,14 @@
       "description": "Widget para enviar dados para um webhook usando script.js",
       "version": "1.0.0",
       "author": {
-        "name": "Seu Nome",
+        "name": "israelgoularte",
         "email": "seu-email@dominio.com"
       }
     },
     "locations": [
       "contact_card"
     ],
+    "base_url": "https://israelgoularte.github.io/mywidgets/", 
     "js": [
       "/script.js"  
     ],
