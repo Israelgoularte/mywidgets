@@ -1,0 +1,29 @@
+{
+    "widget": {
+      "name": "WebhookSenderJS",
+      "description": "Widget para enviar dados para um webhook usando script.js",
+      "version": "1.0.0",
+      "author": {
+        "name": "Seu Nome",
+        "email": "seu-email@dominio.com"
+      }
+    },
+    "locations": [
+      "contact_card"
+    ],
+    "js": [
+      "/script.js"  
+    ],
+    "events": {
+      "on_contact_add": true,
+      "on_contact_update": true
+    },
+    "settings": {
+      "webhook_url": {
+        "type": "string",
+        "name": "https://hook.us1.make.com/nkag9g7hpvqhdspiaasp7tmr99nyz9fi",
+        "default_value": "https://hook.us1.make.com/nkag9g7hpvqhdspiaasp7tmr99nyz9fi"
+      }
+    }
+  }
+  
